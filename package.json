@@ -1,5 +1,5 @@
 {
-  "name": "@ojshua/angular-monaco-editor",
+  "name": "angular-monaco-editor",
   "version": "1.10.0",
   "description": "To utilize the Monaco Code Editor as an Angular Component.",
   "author": "courage007 <wang_xufa@163.com>",
@@ -27,31 +27,30 @@
   "contributors": [
     "courage007 <wang_xufa@163.com>"
   ],
-  "peerDependencies": {
-    "@angular/common": "^5.1.0",
-    "@angular/core": "^5.1.0"
-  },
+  "peerDependencies": {},
   "dependencies": {
-    "rxjs": "^6.5.3"
+    "tslib": "^1.9.0"
   },
   "devDependencies": {
-    "@angular/animations": "^5.2.0",
-    "@angular/cli": "~1.7.4",
-    "@angular/common": "^5.2.0",
-    "@angular/compiler": "^5.2.0",
-    "@angular/compiler-cli": "^5.2.0",
-    "@angular/core": "^5.2.11",
-    "@angular/forms": "^5.2.0",
-    "@angular/http": "^5.2.0",
-    "@angular/language-service": "^5.2.0",
-    "@angular/platform-browser": "^5.2.0",
-    "@angular/platform-browser-dynamic": "^5.2.0",
-    "@angular/router": "^5.2.0",
+    "rxjs": "^6.5.3",
+    "ng-packagr": "^5.5.1",
+    "@angular-devkit/build-angular": "~0.803.6",
+    "@angular/animations": "^9.0.0-next.8",
+    "@angular/cli": "^8.3.6",
+    "@angular/common": "^9.0.0-next.8",
+    "@angular/compiler": "^9.0.0-next.8",
+    "@angular/compiler-cli": "^9.0.0-next.8",
+    "@angular/core": "^9.0.0-next.8",
+    "@angular/forms": "^9.0.0-next.8",
+    "@angular/language-service": "^9.0.0-next.8",
+    "@angular/platform-browser": "^9.0.0-next.8",
+    "@angular/platform-browser-dynamic": "^9.0.0-next.8",
+    "@angular/router": "^9.0.0-next.8",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/lodash": "^4.14.109",
     "@types/node": "^6.0.111",
-    "codelyzer": "^4.0.1",
+    "codelyzer": "^5.0.1",
     "core-js": "^2.4.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -62,12 +61,11 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "lodash-es": "^4.17.10",
     "monaco-editor": "^0.14.3",
-    "ng-packagr": "^3.0.3",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.5.3",
-    "zone.js": "^0.8.19"
+    "typescript": "~3.5.3",
+    "zone.js": "~0.9.1"
   },
   "repository": "https://github.com/courage007/Angular-Monaco-Editor.git",
   "bugs": {

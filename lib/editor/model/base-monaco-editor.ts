@@ -20,7 +20,7 @@ export abstract class BaseMonacoEditor implements AfterViewInit, OnDestroy {
   // monaco editor is currently not possible to have two editors have different themes.
   private unifiedTheme = "vs-dark";
 
-  @ViewChild('codeEditor') _editorComponent: ElementRef;
+  @ViewChild('codeEditor', { static: false }) _editorComponent: ElementRef;
 
   // tslint:disable-next-line:no-output-on-prefix
   @Output() onInit;
