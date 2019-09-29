@@ -1,5 +1,5 @@
 {
-  "name": "angular-monaco-editor",
+  "name": "@ojshua/angular-monaco-editor",
   "version": "1.10.0",
   "description": "To utilize the Monaco Code Editor as an Angular Component.",
   "author": "courage007 <wang_xufa@163.com>",
